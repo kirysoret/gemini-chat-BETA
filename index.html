@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemini Chat - Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script defer src="translate.js"></script>
+</head>
+<body class="theme-light">
+  <div class="container">
+    <header>
+      <img src="https://cdn.discordapp.com/attachments/1229510984785909760/1249829642342346782/gemini_logo.png" alt="Gemini Chat Logo" class="logo">
+      <h1>¡Welcome to <span class="gradient">Gemini Chat [BETA]</span>!</h1>
+      <p id="intro-text">Select your language to see the bot information:</p>
+      <div class="language-selector">
+        <input type="text" id="language-input" placeholder="Type your language (ej: español, english, français)...">
+        <button id="set-language">Select language</button>
+      </div>
+    </header>
+    <main>
+      <section id="summary-section" class="hidden">
+        <div id="summary-content" class="embed"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="themes">
+        <button class="theme-btn" data-theme="light">🌤️ light</button>
+        <button class="theme-btn" data-theme="dark">🌑 dark</button>
+        <button class="theme-btn" data-theme="midnight">🌙 Midnight</button>
+        <button class="theme-btn" data-theme="blurple">🟦 Blurple</button>
+      </div>
+      <p>Bot Gemini Chat Discord [BETA] &copy; 2024</p>
+    </footer>
+  </div>
+</body>
+</html> 
